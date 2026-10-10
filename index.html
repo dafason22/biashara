@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Biashara Online — Endesha Biashara Yako Kidijitali</title>
+<meta name="description" content="Biashara Online ni mfumo wa kusimamia biashara: mauzo, stock, madeni na ripoti za PDF. TZS 2,000 tu kwa mwezi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="nav" id="nav">
+  <a href="#juu" class="logo" aria-label="Biashara Online">
+    <svg class="logo-icon" viewBox="0 0 48 48" aria-hidden="true">
+      <rect x="4" y="6" width="40" height="10" rx="3" fill="#f59e0b"/>
+      <path d="M4 16h8v4a4 4 0 0 1-8 0zM12 16h8v4a4 4 0 0 1-8 0zM20 16h8v4a4 4 0 0 1-8 0zM28 16h8v4a4 4 0 0 1-8 0zM36 16h8v4a4 4 0 0 1-8 0z" fill="#fff" opacity=".0"/>
+      <rect x="7" y="20" width="34" height="22" rx="3" fill="#0f766e"/>
+      <rect x="13" y="26" width="6" height="16" fill="#fff" opacity=".9"/>
+      <rect x="23" y="26" width="13" height="9" rx="1.5" fill="#fff" opacity=".9"/>
+    </svg>
+    <span class="logo-text">Biashara<br><b>Online</b></span>
+  </a>
+  <div class="nav-btns">
+    <a href="login.php" class="btn btn-outline btn-sm">Login</a>
+    <a href="register.php" class="btn btn-solid btn-sm">Anza Sasa →</a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="juu">
+  <!-- picha za wanyama wa Tanzania (zinabadilika zenyewe) -->
+  <div class="bg-slides" id="bgSlides" aria-hidden="true"></div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+
+  <div class="hero-inner">
+    <span class="pill">🇹🇿 Biashara yako mkononi mwako</span>
+    <h1>Endesha Biashara Yako Kidijitali</h1>
+    <p class="lead">Biashara Online ni mfumo wa kusimamia biashara yako kwa urahisi: andika mauzo, fuatilia stock, simamia madeni ya wateja, na pata ripoti za PDF — kwenye simu yako tu.</p>
+
+    <div class="hero-cta">
+      <a href="register.php" class="btn btn-white btn-lg">🚀 Anza Sasa</a>
+    </div>
+
+    <div class="stats">
+      <div><b>TZS 2K</b><span>Bei kwa Mwezi</span></div>
+      <div><b>24/7</b><span>Inapatikana Wakati Wowote</span></div>
+      <div><b>100%</b><span>Kiswahili</span></div>
+      <div><b>PDF</b><span>Ripoti Tayari</span></div>
+    </div>
+
+    <!-- picha ya dashboard (laptop + simu) -->
+    <div class="mock" aria-hidden="true">
+      <div class="laptop">
+        <div class="screen">
+          <aside class="side">
+            <div class="side-logo">Biashara<br><b>Online</b></div>
+            <i class="on">Dashboard</i><i>Bidhaa</i><i>Mauzo</i><i>Madeni</i><i>Stock</i><i>Ripoti</i>
+          </aside>
+          <div class="main">
+            <div class="topbar"><span>Habari, Mfanyabiashara 👋</span><em>Jumatatu</em></div>
+            <div class="kpis">
+              <div class="kpi k1"><small>MAUZO LEO</small><b>TZS 48,500</b></div>
+              <div class="kpi k2"><small>FAIDA</small><b>TZS 12,300</b></div>
+              <div class="kpi k3"><small>MADENI</small><b>TZS 31,000</b></div>
+              <div class="kpi k4"><small>STOCK CHINI</small><b>7</b></div>
+            </div>
+            <div class="chart-box">
+              <small>Mauzo (siku 7)</small>
+              <div class="bars"><u style="height:38%"></u><u style="height:55%"></u><u style="height:46%"></u><u style="height:82%"></u><u style="height:64%"></u><u style="height:90%"></u><u style="height:52%"></u></div>
+            </div>
+          </div>
+        </div>
+        <div class="base"></div>
+      </div>
+      <div class="phone">
+        <div class="p-screen">
+          <div class="p-top">Dashboard</div>
+          <div class="p-kpi"><small>MAUZO LEO</small><b>TZS 48,500</b></div>
+          <div class="p-kpi g"><small>FAIDA</small><b>TZS 12,300</b></div>
+          <div class="p-bars"><u style="height:40%"></u><u style="height:70%"></u><u style="height:55%"></u><u style="height:95%"></u><u style="height:60%"></u></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAIDA ============ -->
+<section class="section" id="faida">
+  <div class="head">
+    <span class="eyebrow">Faida za Biashara Online</span>
+    <h2>Kila Kitu Unachohitaji</h2>
+    <p>Mfumo kamili wa kuendesha biashara yako bila kuwa na ujuzi wa kompyuta.</p>
+  </div>
+  <div class="cards">
+    <article class="card"><div class="ico">🛒</div><h3>Mauzo ya Haraka</h3><p>Chagua bidhaa, ingiza kiasi, kamilisha mauzo. Hakuna tena kuandika kwenye daftari.</p></article>
+    <article class="card"><div class="ico">📦</div><h3>Stock Automatic</h3><p>Bidhaa ikiuzwa, stock inapungua yenyewe. Unapata tahadhari kabla bidhaa haijaisha.</p></article>
+    <article class="card"><div class="ico">🧾</div><h3>Ufuatiliaji wa Madeni</h3><p>Weka wanaokudaiwa na wanaokudai. Jua nani anadaiwa kiasi gani na lini alilipa.</p></article>
+    <article class="card"><div class="ico">📊</div><h3>Ripoti za PDF</h3><p>Pakua ripoti ya mauzo na faida kwa PDF kwa bonyeza moja — tayari kwa mhasibu au benki.</p></article>
+    <article class="card"><div class="ico">🔒</div><h3>Data Salama</h3><p>Taarifa za biashara yako zimehifadhiwa kwa usalama na zinaonekana na wewe tu.</p></article>
+    <article class="card"><div class="ico">📱</div><h3>Simu au Kompyuta</h3><p>Tumia kwenye simu yoyote au kompyuta. Unahitaji intaneti tu — hakuna kusakinisha chochote.</p></article>
+  </div>
+</section>
+
+<!-- ============ HATUA ============ -->
+<section class="section alt" id="jinsi">
+  <div class="head">
+    <span class="eyebrow">Jinsi Inavyofanya Kazi</span>
+    <h2>Anza Kwa Hatua 4 Tu</h2>
+    <p>Ndani ya dakika chache unaweza kuanza kuuza.</p>
+  </div>
+  <div class="steps">
+    <div class="step"><span class="num">1</span><h3>Jisajili</h3><p>Jaza jina, namba ya simu na password. Inachukua dakika moja tu.</p></div>
+    <div class="step"><span class="num">2</span><h3>Lipia</h3><p>Lipia TZS 2,000 kwa mwezi kwa simu. Akaunti yako inafunguliwa baada ya malipo kuthibitishwa.</p></div>
+    <div class="step"><span class="num">3</span><h3>Anza Kutumia</h3><p>Ingiza bidhaa zako, anza kuandika mauzo na kufuatilia stock na madeni.</p></div>
+    <div class="step"><span class="num">4</span><h3>Pata Ripoti</h3><p>Ona mauzo, faida na stock kwenye dashboard, na pakua ripoti ya PDF wakati wowote.</p></div>
+  </div>
+</section>
+
+<!-- ============ MAONI ============ -->
+<section class="section" id="maoni">
+  <div class="head">
+    <span class="eyebrow">Maoni ya Wateja</span>
+    <h2>Wanachosema Wafanyabiashara</h2>
+    <p>Wajasiriamali wa Tanzania wanaotumia Biashara Online kila siku.</p>
+  </div>
+  <div class="quotes">
+    <figure class="quote">
+      <div class="stars">★★★★★</div>
+      <blockquote>"Zamani nilikuwa naandika mauzo kwenye daftari na mengine yalipotea. Sasa kila kitu kiko kwenye simu, naona faida yangu ya siku nzima."</blockquote>
+      <figcaption><span class="av">A</span><div><b>Amina R.</b><small>Duka la Vyakula, Mwanza</small></div></figcaption>
+    </figure>
+    <figure class="quote">
+      <div class="stars">★★★★★</div>
+      <blockquote>"Kipengele cha madeni kimenisaidia sana. Najua nani ananidai na kiasi gani, sipotezi tena pesa za wateja."</blockquote>
+      <figcaption><span class="av">J</span><div><b>Juma M.</b><small>Duka la Rejareja, Dar es Salaam</small></div></figcaption>
+    </figure>
+    <figure class="quote">
+      <div class="stars">★★★★★</div>
+      <blockquote>"Bei ni nafuu kuliko nilivyofikiria. Elfu mbili kwa mwezi ni kidogo sana kwa msaada mkubwa kiasi hiki."</blockquote>
+      <figcaption><span class="av">N</span><div><b>Neema K.</b><small>Mama Lishe, Arusha</small></div></figcaption>
+    </figure>
+    <figure class="quote">
+      <div class="stars">★★★★★</div>
+      <blockquote>"Nilikuwa sijui stock imebaki kiasi gani. Sasa napata taarifa kabla bidhaa haijaisha, siagizi kwa kuchelewa tena."</blockquote>
+      <figcaption><span class="av">H</span><div><b>Hassan S.</b><small>Duka la Vifaa, Dodoma</small></div></figcaption>
+    </figure>
+    <figure class="quote">
+      <div class="stars">★★★★★</div>
+      <blockquote>"Ripoti ya PDF nimeitumia kupeleka benki wakati naomba mkopo mdogo. Walishangaa jinsi kumbukumbu zangu zilivyo nadhifu."</blockquote>
+      <figcaption><span class="av">G</span><div><b>Grace T.</b><small>Duka la Mavazi, Mbeya</small></div></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ MASWALI ============ -->
+<section class="section alt" id="maswali">
+  <div class="head">
+    <span class="eyebrow blue">Maswali Yanayoulizwa</span>
+    <h2>Una Swali? Tuna Jibu</h2>
+    <p>Kila unachohitaji kujua kuhusu Biashara Online.</p>
+  </div>
+  <div class="faq">
+    <div class="qa">
+      <button class="q" aria-expanded="false">Biashara Online ni nini hasa?<span class="plus">+</span></button>
+      <div class="a"><p>Ni mfumo wa mtandaoni wa kusimamia biashara ndogo na za kati. Unaandika mauzo, unafuatilia stock na madeni ya wateja, na unapata ripoti za PDF — vyote sehemu moja.</p></div>
+    </div>
+    <div class="qa">
+      <button class="q" aria-expanded="false">Je, ninahitaji intaneti kutumia mfumo?<span class="plus">+</span></button>
+      <div class="a"><p>Ndiyo, unahitaji intaneti (bando la kawaida la simu linatosha) kwa sababu data zako zinahifadhiwa mtandaoni ili ziwe salama na ziweze kuonekana kwenye kifaa chochote.</p></div>
+    </div>
+    <div class="qa">
+      <button class="q" aria-expanded="false">Naanza vipi? Ni ngumu?<span class="plus">+</span></button>
+      <div class="a"><p>Si ngumu. Bonyeza "Anza Sasa", jisajili, lipia, kisha ingiza bidhaa zako. Mfumo umeandikwa kwa Kiswahili rahisi, hata kama hujawahi kutumia kompyuta.</p></div>
+    </div>
+    <div class="qa">
+      <button class="q" aria-expanded="false">Bei ni ngapi na nalipaje?<span class="plus">+</span></button>
+      <div class="a"><p>Bei ni TZS 2,000 tu kwa mwezi. Unalipia kwa simu, kisha akaunti yako inawashwa baada ya malipo kuthibitishwa. Ukihitaji msaada wa kulipa, tupigie au tuandikie WhatsApp.</p></div>
+    </div>
+    <div class="qa">
+      <button class="q" aria-expanded="false">Naweza kufuatilia madeni ya wateja?<span class="plus">+</span></button>
+      <div class="a"><p>Ndiyo. Unaweza kurekodi deni la mteja, kiasi alicholipa na kilichobaki, ili ujue nani anakudai kiasi gani wakati wowote.</p></div>
+    </div>
+    <div class="qa">
+      <button class="q" aria-expanded="false">Ripoti zinapatikanaje?<span class="plus">+</span></button>
+      <div class="a"><p>Ripoti za mauzo na faida zinaonekana kwenye dashboard yako, na unaweza kuzipakua kama PDF kwa kubonyeza mara moja.</p></div>
+    </div>
+    <div class="qa">
+      <button class="q" aria-expanded="false">Je, data yangu iko salama?<span class="plus">+</span></button>
+      <div class="a"><p>Ndiyo. Taarifa za biashara yako zinalindwa kwa password yako na zinaonekana na wewe tu. Hatuziuzi wala kuzishiriki na mtu mwingine.</p></div>
+    </div>
+    <div class="qa">
+      <button class="q" aria-expanded="false">Nikitaka kuacha je? Data yangu itakuwaje?<span class="plus">+</span></button>
+      <div class="a"><p>Unaweza kuacha wakati wowote, hakuna mkataba. Ukisimamisha malipo akaunti yako inasimama, na ukirudi baadaye unaendelea ulipoishia.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta">
+  <h2>Tayari Kuendesha Biashara Yako Kidijitali?</h2>
+  <p>Jiunge leo kwa TZS 2,000 tu kwa mwezi.</p>
+  <a href="register.php" class="btn btn-white btn-lg">🚀 Anza Sasa</a>
+  <ul class="checks">
+    <li>✓ Bei nafuu: TZS 2,000 kwa mwezi</li>
+    <li>✓ Ghairi wakati wowote</li>
+    <li>✓ Msaada wa Kiswahili</li>
+  </ul>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="f-brand">
+    <a href="#juu" class="logo light">
+      <svg class="logo-icon" viewBox="0 0 48 48" aria-hidden="true">
+        <rect x="4" y="6" width="40" height="10" rx="3" fill="#f59e0b"/>
+        <rect x="7" y="20" width="34" height="22" rx="3" fill="#fff"/>
+        <rect x="13" y="26" width="6" height="16" fill="#0f766e"/>
+        <rect x="23" y="26" width="13" height="9" rx="1.5" fill="#0f766e"/>
+      </svg>
+      <span class="logo-text">Biashara<br><b>Online</b></span>
+    </a>
+    <p>Mfumo wa kusimamia biashara unaowasaidia wajasiriamali wa Tanzania kuendesha biashara zao kwa ufanisi.</p>
+  </div>
+
+  <div class="f-col">
+    <h4>Wasiliana Nasi</h4>
+    <p><a href="https://wa.me/255750180184" target="_blank" rel="noopener">💬 +255 750 180 184</a> <span class="wa">WhatsApp</span></p>
+    <p><a href="tel:+255750180184">📞 +255 750 180 184</a></p>
+    <p><a href="mailto:dafasonabdi@gmail.com">✉️ dafasonabdi@gmail.com</a></p>
+    <p><a href="https://www.instagram.com/biasharaonline.tz/" target="_blank" rel="noopener">📸 Instagram: @biasharaonline.tz</a></p>
+  </div>
+
+  <div class="f-col">
+    <h4>Jiunge Nasi</h4>
+    <p><a href="login.php">🔐 Login</a></p>
+    <p><a href="register.php">🚀 Jisajili</a></p>
+  </div>
+
+  <div class="f-bottom">© 2026 Biashara Online — Tanzania 🇹🇿<small>Picha za wanyama: <a href="https://commons.wikimedia.org/wiki/Category:Featured_pictures_of_Tanzania" target="_blank" rel="noopener">Wikimedia Commons</a> (waandishi: Ikiwaner na wengine)</small></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
